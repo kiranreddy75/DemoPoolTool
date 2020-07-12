@@ -7,7 +7,7 @@ class PoolTable extends Component {
     if (!epoch) {
       epochNumber = "N/A";
     } else {
-      epochNumber = epoch;
+      epochNumber = epoch.number;
     }
     return (
       <React.Fragment>
